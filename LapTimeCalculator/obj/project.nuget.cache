@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OPb4QO9tqO19bImUJwUKV9ceBa7HsS7x3Funlnf+MYQxneLYIazp4veGxOB9hyfVEpSqN0m458CixEbgFUgYPw==",
+  "dgSpecHash": "bhVp8WZJywuEyfs87YJpUWHjYe5uqctHb+mZWA1dCTNxsgy12PZbz9zchi3M7SNrsXFPn862Lpw+W6e8vEKvMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Colin\\Source\\Repos\\LapTimeCalculator\\LapTimeCalculator\\LapTimeCalculator.csproj",
+  "projectFilePath": "C:\\Users\\itzce\\Documents\\Rider\\LapTimeCalculator\\LapTimeCalculator\\LapTimeCalculator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Colin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512",
-    "C:\\Users\\Colin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Colin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Colin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\itzce\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

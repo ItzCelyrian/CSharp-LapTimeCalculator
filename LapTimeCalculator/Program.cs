@@ -6,22 +6,18 @@ namespace LapTimeCalculator
     {
         private static void Main()
         {
-            Console.WriteLine("Forza Horizon 5 - Time Calculator");
+            Console.WriteLine("Forza Horizon 5 - Lap Time Calculator");
 
-            var laps = ReadNumberWithLimit("\nHow many laps does the race consist of? (1-50)", 50, 1);                    // Definition for the amount of Laps
-
-            var minutes = ReadNumberWithLimit("\nHow many minutes does a single lap take? (0-60)", 60, 0);   // Definition of the time a single Lap is taking (Minute Counter)
-
-            var seconds = ReadNumberWithLimit("\nHow many seconds does a single lap take? (0-60)", 60, 0);                // Definition of the time a single Lap is taking (Second Counter)
-
-            var lapTime = (minutes * 60) + seconds;                                                                       // Calculation of the Output Time
+            var laps = ReadNumberWithLimit("\nHow many laps does the race consist of? (1-50) ", 50, 1);
+            var minutes = ReadNumberWithLimit("\nHow many minutes does a single lap take? (0-60) ", 60, 0);
+            var seconds = ReadNumberWithLimit("\nHow many seconds does a single lap take? (0-60) ", 60, 0);
+            var lapTime = (minutes * 60) + seconds;
             var finalTime = TimeSpan.FromSeconds(laps * lapTime);
             var outputTime = finalTime.ToString(@"hh\:mm\:ss");
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Iw will take {outputTime} to drive {laps} Laps.");                                        // Output of the Variable after the calculation
+            Console.WriteLine($"Iw will take {outputTime} to drive {laps} Laps.");
             Console.ForegroundColor = ConsoleColor.Gray;
-
             Console.WriteLine("\nPress any Key to exit...");
             Console.ReadLine();
         }
@@ -36,7 +32,7 @@ namespace LapTimeCalculator
 
                 try
                 {
-                    returnVal = int.Parse(Console.ReadLine());
+                    returnVal = int.Parse(Console.ReadLine() ?? string.Empty);
                 }
                 catch
                 {
