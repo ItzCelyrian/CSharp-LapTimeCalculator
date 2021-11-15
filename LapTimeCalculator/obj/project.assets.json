@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Colin\\.nuget\\packages\\": {},
+    "C:\\Users\\itzce\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Colin\\Source\\Repos\\LapTimeCalculator\\LapTimeCalculator\\LapTimeCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\itzce\\Documents\\Rider\\LapTimeCalculator\\LapTimeCalculator\\LapTimeCalculator.csproj",
       "projectName": "LapTimeCalculator",
-      "projectPath": "C:\\Users\\Colin\\Source\\Repos\\LapTimeCalculator\\LapTimeCalculator\\LapTimeCalculator.csproj",
-      "packagesPath": "C:\\Users\\Colin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Colin\\Source\\Repos\\LapTimeCalculator\\LapTimeCalculator\\obj\\",
+      "projectPath": "C:\\Users\\itzce\\Documents\\Rider\\LapTimeCalculator\\LapTimeCalculator\\LapTimeCalculator.csproj",
+      "packagesPath": "C:\\Users\\itzce\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\itzce\\Documents\\Rider\\LapTimeCalculator\\LapTimeCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\itzce\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -62,20 +62,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.11, 5.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
+            "version": "[5.0.12, 5.0.12]"
           }
         ],
         "frameworkReferences": {
@@ -83,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
