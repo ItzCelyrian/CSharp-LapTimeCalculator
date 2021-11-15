@@ -1,0 +1,16 @@
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\bin\Debug\net5.0\LapTimeCalculator.exe
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\bin\Debug\net5.0\LapTimeCalculator.deps.json
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\bin\Debug\net5.0\LapTimeCalculator.runtimeconfig.json
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\bin\Debug\net5.0\LapTimeCalculator.runtimeconfig.dev.json
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\bin\Debug\net5.0\LapTimeCalculator.dll
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\bin\Debug\net5.0\ref\LapTimeCalculator.dll
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\bin\Debug\net5.0\LapTimeCalculator.pdb
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.csproj.AssemblyReference.cache
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.AssemblyInfoInputs.cache
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.AssemblyInfo.cs
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.dll
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\ref\LapTimeCalculator.dll
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.pdb
+C:\Users\Colin\Source\Repos\LapTimeCalculator\LapTimeCalculator\obj\Debug\net5.0\LapTimeCalculator.genruntimeconfig.cache
