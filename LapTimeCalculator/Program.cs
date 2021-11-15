@@ -6,55 +6,53 @@ namespace LapTimeCalculator
     {
         private static void Main()
         {
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("Forza Horizon 5 - Time Calculator\n");
+            Console.WriteLine("Forza Horizon 5 - Time Calculator");
 
-            // Definition for the amount of Laps
-            Console.WriteLine("How many Laps does the race consist of?\n");
-            var laps = Convert.ToInt64(Console.ReadLine());
-            
-            // Definition of the time a single Lap is taking (Minute Counter)
-            Console.WriteLine("How many Minutes does a single Lap have?\n");
-            var minutes = Convert.ToDouble(Console.ReadLine());
-            
-            // Definition of the time a single Lap is taking (Second Counter)
-            Console.WriteLine("How many Seconds does a single Lap have? (Decimals are given with ',')\n");
-            var seconds = Convert.ToDouble(Console.ReadLine());
-            
-            // Cases for if laps and time is exceeding the limit
-            if (laps is > 50 or <= 0)
-            {
-                laps = 1;
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Your given laps were invalid, the lap-counter was automatically adjusted to '1'.\n");
-            }
-            
-            if (minutes is >= 60 or < 0)
-            {
-                minutes = 1;
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Your given minutes were invalid, the minute-counter was automatically adjusted to '1'.\n");
-            }
+            var laps = ReadNumberWithLimit("\nHow many laps does the race consist of? (1-50)", 50, 1);                    // Definition for the amount of Laps
 
-            if (seconds is >= 60 or < 0)
-            {
-                seconds = 1;
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Your given seconds were invalid, the second-counter was automatically adjusted to '1'.\n");
-            }
+            var minutes = ReadNumberWithLimit("\nHow many minutes does a single lap take? (Min 0)", Int32.MaxValue, 0);   // Definition of the time a single Lap is taking (Minute Counter)
 
-            // Calculation of the Output Time
-            var lapTime = ( minutes * 60 ) + seconds;
-            var finalTime = TimeSpan.FromSeconds( laps * lapTime );
-            var outputTime = finalTime .ToString(@"hh\:mm\:ss\:fff");
-            
-            // Output of the Variable after the calculation
+            var seconds = ReadNumberWithLimit("\nHow many seconds does a single lap take? (0-60)");                       // Definition of the time a single Lap is taking (Second Counter)
+
+            var lapTime = (minutes * 60) + seconds;                                                                       // Calculation of the Output Time
+            var finalTime = TimeSpan.FromSeconds(laps * lapTime);
+            var outputTime = finalTime.ToString(@"hh\:mm\:ss\:fff");
+
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"The Race will take {outputTime} to be completed within {laps} Laps.\n");
-            
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("Press any Key to exit...");
+            Console.WriteLine($"Iw will take {outputTime} to drive {laps} Laps.");                                        // Output of the Variable after the calculation
+            Console.ForegroundColor = ConsoleColor.Gray;
+
+            Console.WriteLine("\nPress any Key to exit...");
             Console.ReadLine();
+        }
+
+        private static int ReadNumberWithLimit(string prompt, int maxValue = Int32.MaxValue, int minValue = Int32.MinValue)
+        {
+            var returnVal = 0;
+            var isCorrect = false;
+            do
+            {
+                Console.Write(prompt);
+
+                try
+                {
+                    returnVal = int.Parse(prompt);
+                }
+                catch
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Please enter a valid number.");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    continue;
+                }
+
+                Console.ForegroundColor = ConsoleColor.Red;
+                isCorrect = returnVal <= minValue && returnVal >= maxValue;
+                if (!isCorrect) Console.WriteLine("Please enter a valid number within the given limits.");
+                Console.ForegroundColor = ConsoleColor.Gray;
+            } while (!isCorrect);
+
+            return returnVal;
         }
     }
 }

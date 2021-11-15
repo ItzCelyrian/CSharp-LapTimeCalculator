@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f2b2afa1-4c4c-417c-abf4-547834dcfb9b": {
+      "ProjectGuid": "f2b2afa1-4c4c-417c-abf4-547834dcfb9b",
+      "DisplayName": "LapTimeCalculator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
