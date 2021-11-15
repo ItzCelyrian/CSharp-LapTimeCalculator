@@ -1,0 +1,16 @@
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\bin\Release\net5.0\LapTimeCalculator.exe
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\bin\Release\net5.0\LapTimeCalculator.deps.json
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\bin\Release\net5.0\LapTimeCalculator.runtimeconfig.json
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\bin\Release\net5.0\LapTimeCalculator.runtimeconfig.dev.json
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\bin\Release\net5.0\LapTimeCalculator.dll
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\bin\Release\net5.0\ref\LapTimeCalculator.dll
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\bin\Release\net5.0\LapTimeCalculator.pdb
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.csproj.AssemblyReference.cache
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.AssemblyInfoInputs.cache
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.AssemblyInfo.cs
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.dll
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\ref\LapTimeCalculator.dll
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.pdb
+C:\Users\itzce\Documents\Rider\LapTimeCalculator\LapTimeCalculator\obj\Release\net5.0\LapTimeCalculator.genruntimeconfig.cache
