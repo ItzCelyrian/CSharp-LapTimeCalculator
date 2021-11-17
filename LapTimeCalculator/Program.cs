@@ -16,7 +16,7 @@ namespace LapTimeCalculator
             var outputTime = finalTime.ToString(@"hh\:mm\:ss");
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Iw will take {outputTime} to drive {laps} Laps.");
+            Console.WriteLine($"It will take {outputTime} to drive {laps} Laps.");
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("\nPress any Key to exit...");
             Console.ReadLine();
