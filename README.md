@@ -22,7 +22,9 @@ This simple console application calculates the total time needed to complete a s
 Forza Horizon 5 - Lap Time Calculator
 
 How many laps does the race consist of? (1-50): 10
+
 How many minutes does a single lap take? (0-60): 2
+
 How many seconds does a single lap take? (0-60): 30
 
 It will take 00:25:00 to drive 10 Laps.
